@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Shoppe demo</title>
+</head>
+<body>
+    <div id="main">
+        <!-- HEADER  -->
+        <header id="header">
+            <div class="grid">
+                <!-- HEADER NAVBAR -->
+                <nav class="header__navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-items bulkhead nav__qr">
+                            <a href="" class="navbar__list-links">Vào cửa hàng trên ứng dụng TickID</a>
+                            <!-- QR -->
+                            <div class="qr">
+                                <img src="./assets/img/scan/qr.png" alt="QR IMG" class="qr__img">
+                                <div class="qr__download">
+                                    <a href="" class="qr__download-links">
+                                        <img src="./assets/img/scan/appstore.png" alt="AppStore" class="qr__app ">
+                                    </a>
+                                    <a href="" class="qr__download-links">
+                                        <img src="./assets/img/scan/ggp.png" alt="Google Play" class="qr__app">
+                                    </a>
+                                    <a href="" class="qr__download-links">
+                                        <img src="./assets/img/scan/appGallery.png" alt="App Gallery" class="qr__app height-13">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__list-items">Kết nối
+                            <a class="navbar__icon-link" href=""><i class="fab fa-facebook navbar__icon"></i></a></i>
+                            <a class="navbar__icon-link" href=""><i class="fab fa-instagram-square navbar__icon"></i></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar__list">
+                        <li class="navbar__list-items navbar__list-items-notification">
+                            <a href="#" class="navbar__list-links"><i class="far fa-bell navbar__icon"></i>Thông báo</a>
+                            <!-- Notification -->
+                            <div class="board notification">
+                                <header class="notification__header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+                                <ul class="notification__content">
+                                    <li class="notification__content-product-list">
+                                        <a href="" class="notification__content-product-link">
+                                            <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="notification__content-product-img">
+                                            <div class="notification__content-product-description">
+                                                <span class="notification__content-product-name">Tên sản phẩm gì gì đó</span>
+                                                <span class="notification__content-product-info">Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đó</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="notification__content-product-list">
+                                        <a href="" class="notification__content-product-link">
+                                            <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="notification__content-product-img">
+                                            <div class="notification__content-product-description">
+                                                <span class="notification__content-product-name">Tên sản phẩm gì gì đó</span>
+                                                <span class="notification__content-product-info">Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đó</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="notification__content-product-list">
+                                        <a href="" class="notification__content-product-link">
+                                            <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="notification__content-product-img">
+                                            <div class="notification__content-product-description">
+                                                <span class="notification__content-product-name">Tên sản phẩm gì gì đó</span>
+                                                <span class="notification__content-product-info">Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đ</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="notification__content-product-list">
+                                        <a href="" class="notification__content-product-link">
+                                            <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="notification__content-product-img">
+                                            <div class="notification__content-product-description">
+                                                <span class="notification__content-product-name">Tên sản phẩm gì gì đó</span>
+                                                <span class="notification__content-product-info">Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đó Mô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đóMô tả về sản phẩm gì gì gì gì đó</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="notification__footer">
+                                    <a href="" class="notification__footer-links">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="navbar__list-items">
+                            <a href="" class="navbar__list-links">
+                                <i class="fas fa-question-circle navbar__icon"></i>Trợ giúp
+                            </a>
+                        </li>
+                        <li class="navbar__list-items navbar__list-items--strong bulkhead "><a href="" class="navbar__list-links">Đăng kí</a></li>
+                        <li class="navbar__list-items navbar__list-items--strong"><a href="" class="navbar__list-links">Đăng nhập</a></li>
+                        <!-- USER -->
+                        <!-- <li class="navbar__list-items navbar__list-items-user">
+                            <a href="" class="navbar__user-link">
+                                <img src="./assets/img/avt/z2966424773118_049ce33f9d3529f4335e7e322322b812.jpg" alt="" class="navbar__user-avt">
+                                <div class="navbar__user-name">laogamen</div>
+                            </a>
+
+                            <div class="navbar__user-account">
+                                <a href="" class="navbar__user-account-link">Tài Khoản Của Tôi</a>
+                                <a href="" class="navbar__user-account-link">Đơn Mua</a>
+                                <a href="" class="navbar__user-account-link navbar__user-account-link--login">Đăng Xuất</a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <a href="/" class="header__logo-link"><div class="header__logo"></div></a>
+
+                    <div class="header__search">
+                        <div class="header__search-input">
+                            <div class="search__input-wrap">
+                                <input type="text" class="search__input" placeholder="Nhập sản phẩm cần tìm kiếm">
+
+                                <div class="search__history">
+                                    <div class="search__history-heading"><span>Lịch Sử Tìm Kiếm</span></div>
+                                    <ul class="search__history-list">
+                                        <li class="search__history-item"><a href="" class="search__history-link">mỹ phẩm</a></li>
+                                        <li class="search__history-item"><a href="" class="search__history-link">kem dưỡng da</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="header__suggestions">
+                                <li class="suggestions__items"><a href="">Nhảy Dây</a></li>
+                                <li class="suggestions__items"><a href="">Loa LG Sn5r</a></li>
+                                <li class="suggestions__items"><a href="">Giá Đỡ Laptop</a></li>
+                                <li class="suggestions__items"><a href="">Dép Jodan</a></li>
+                                <li class="suggestions__items"><a href="">Uốn Tóc Không Nhiệt</a></li>
+                                <li class="suggestions__items"><a href="">Đồ Quấn Tóc Xoăn</a></li>
+                                <li class="suggestions__items"><a href="">Băng Đô Uốn Tóc</a></li>
+                                <li class="suggestions__items"><a href="">Đồ Làm Tóc Xoăn</a></li>
+                            </ul>
+                            <div class="search__list">
+                                <span>Trong shop<i class="fas fa-chevron-down"></i></span>
+    
+                                <ul class="search__list-option">
+                                    <li class="search__list-option-items search__list-option-items--active">Trong shop <i class="fas fa-check"></i></li>
+                                    <li class="search__list-option-items">Ngoài shop <i class="fas fa-check"></i></li>
+                                </ul>
+                            </div>
+    
+                            <button type="submit" class="search__btn">
+                                <i class="fas search__btn-icon fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__cart">
+                        <a href="" class="header__cart-link">
+                            <i class="fas header__cart-icon fa-shopping-cart"></i>
+                            <span class="header__cart-badge">2</span>
+                        </a>
+                        <div class="board header__cart-add">
+                            <div class="header__cart-added">
+                                <!-- NO PRODUCTS YET: header__cart-added--not -->
+                                <div class="header__cart-added--not-img"></div>
+                                <p>Chưa Có Sản Phẩm</p>
+
+                                <!-- PRODUCTS ADDED -->
+                                <header class="notification__header"><h3>Sản Phẩm Mới Thêm</h3></header>
+
+                                <ul class="cart__product-added-list">
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+
+
+                                    <li class="cart__product-added-item">
+                                        <img src="https://cf.shopee.vn/file/b97bdc4be403e9bc28787eaaea6ec6ed_tn" alt="Product" class="cart__product-added-img">
+                                        <div class="cart__product-added-item-decription">
+                                            <div class="cart__product-added-info"><span>Bộ thanh uốn tóc không cần nhiệt Flexi rod - Lõi cao su mềm, dẻo loại 1 100% không hư tổn tóc</span></div>
+                                            <div class="cart__product-added-price"><span>67.000₫</span></div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <footer class="added__footer">
+                                    <a href="" class="added__footer-links">Xem Giỏ Hàng</a>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTAINER -->
+        <div id="container">
+            <div class="grid">
+                <div class="grid__row grid__row-container">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <header class="category__heading"><i class="fas fa-bars category__heading-icon"></i>Danh Mục</header>
+                            <ul class="category__list">
+                                <li class="category-item category-item--active">Sản phẩm</li>
+                                <li class="category-item">Gia dụng LG</li>
+                                <li class="category-item">Tivi LG</li>
+                                <li class="category-item">Tivi Model 2021</li>
+                                <li class="category-item">Loa di động Bluetooth</li>
+                                <li class="category-item">Máy giặt LG</li>
+                                <li class="category-item">SoundBar LG</li>
+                                <li class="category-item">Màn hình LG</li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <div class="home-filter__label">Sắp xếp theo</div>
+                            
+                            <div class="classify">
+                                <button class="btn">Phổ biến</button>
+                                <button class="btn btn--primary">Mới nhất</button>
+                                <button class="btn">Bán chạy</button>
+                                <div class="select-with-price">
+                                    <span class="select-with-price__placeholder">Giá</span>
+                                    <i class="fas fa-chevron-down select-with-price__placeholder-icon"></i>
+                                    <div class="select-with-price-dropdown">
+                                        <div class="select-with-price-dropdown-item select-with-price-dropdown-item--check">Giá: Thấp đến Cao<i class="fas fa-check select-with-price-dropdown-item-icon"></i></div>
+                                        <div class="select-with-price-dropdown-item">Giá: Cao đến Thấp<i class="fas fa-check select-with-price-dropdown-item-icon"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pagination-s">
+                                <div class="pagination-s__page">
+                                    <span class="pagination-s__page--current">1</span>/<span class="pagination-s__page--total">14</span>
+                                </div>
+                                <button class="pagination-s__controller-btn controller-btn--disable controller-btn-back"><i class="fas fa-chevron-left pagination-s__controller-btn-back-icon"></i></button>
+                                <button class="pagination-s__controller-btn controller-btn-next"><i class="fas fa-chevron-right pagination-s__controller-btn-next-icon"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="home-showing">
+                            <div class="grid__row">
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-2-10">
+                                    <div class="product-showing">
+                                        <a href="" class="product-showing__link">
+                                            <div class="product-showing-img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                            <div class="product-showing__description">
+                                                <div class="product-showing__description-info">Đắc nhân tâm của Dale Carnegie là quyển sách của mọi thời đại và một hiện tượng đáng kinh ngạc trong ngành xuất bản Hoa Kỳ. Trong suốt nhiều thập kỷ tiếp theo và cho đến tận bây giờ, tác phẩm này vẫn chiếm vị trí số một trong danh mục sách bán chạy nhất và trở thành một sự kiện có...</div>
+                                                <div class="product-showing__description-price">
+                                                    <div class="product-showing__description-price-old">₫690.000</div>
+                                                    <div class="product-showing__description-price-current">₫350.000</div>
+                                                    <div class="product-showing__description-price-free-ship">
+                                                        <div class="pcmall-shopmicrofe_1vMsxF"><svg height="12" viewBox="0 0 20 12" width="20" class="shopee-svg-icon icon-free-shipping"><g fill="none" fill-rule="evenodd" transform=""><rect fill="#00bfa5" fill-rule="evenodd" height="9" rx="1" width="12" x="4"></rect><rect height="8" rx="1" stroke="#00bfa5" width="11" x="4.5" y=".5"></rect><rect fill="#00bfa5" fill-rule="evenodd" height="7" rx="1" width="7" x="13" y="2"></rect><rect height="6" rx="1" stroke="#00bfa5" width="6" x="13.5" y="2.5"></rect><circle cx="8" cy="10" fill="#00bfa5" r="2"></circle><circle cx="15" cy="10" fill="#00bfa5" r="2"></circle><path d="m6.7082481 6.7999878h-.7082481v-4.2275391h2.8488017v.5976563h-2.1405536v1.2978515h1.9603297v.5800782h-1.9603297zm2.6762505 0v-3.1904297h.6544972v.4892578h.0505892c.0980164-.3134765.4774351-.5419922.9264138-.5419922.0980165 0 .2276512.0087891.3003731.0263672v.6210938c-.053751-.0175782-.2624312-.038086-.3762568-.038086-.5122152 0-.8758247.3017578-.8758247.75v1.8837891zm3.608988-2.7158203c-.5027297 0-.8536919.328125-.8916338.8261719h1.7390022c-.0158092-.5009766-.3446386-.8261719-.8473684-.8261719zm.8442065 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187zm2.6224996-1.8544922c-.5027297 0-.853692.328125-.8916339.8261719h1.7390022c-.0158091-.5009766-.3446386-.8261719-.8473683-.8261719zm.8442064 1.8544922h.6544972c-.1549293.571289-.7050863.9228515-1.49238.9228515-.9864885 0-1.5903965-.6269531-1.5903965-1.6464843 0-1.0195313.6165553-1.6669922 1.5872347-1.6669922.9580321 0 1.5366455.6064453 1.5366455 1.6083984v.2197266h-2.4314412v.0351562c.0221328.5595703.373095.9140625.9169284.9140625.4110369 0 .6924391-.1376953.8189119-.3867187z" fill="#fff"></path><path d="m .5 8.5h3.5v1h-3.5z" fill="#00bfa5"></path><path d="m0 10.15674h3.5v1h-3.5z" fill="#00bfa5"></path><circle cx="8" cy="10" fill="#047565" r="1"></circle><circle cx="15" cy="10" fill="#047565" r="1"></circle></g></svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__decription-action">
+                                                    <div class="product-showing__description-like product-showing__description-like--liked">
+                                                        <i class="product-showing__description-like-icon far fa-heart"></i>
+                                                        <i class="product-showing__description-liked-icon fas fa-heart"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                    <div class="product-showing__description-sold">
+                                                        Đã bán
+                                                        <span class="product-showing__description-sold-quanlity">2,7k</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-showing__description-origin">TP. Hồ Chí Minh</div>
+                                                <div class="product-showing__favorite"><span><i class="fas fa-check"></i>Yêu thích</span></div>
+                                                <div class="product-showing__saleoff">
+                                                        <span class="product-showing__saleoff-value">49%</span>
+                                                        <span class="product-showing__saleoff-label">GIẢM</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="home-pagination margin-home-pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-chevron-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="grid">
+                    <div class="footer-promise">
+                        <div class="footer-promise-content">
+                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6c502a2641457578b0d5f5153b53dd5d.png" alt="" class="footer-promise-content__img">
+                            <div class="footer-description">
+                                <span class="footer-description__heading">7 ngày miễn phí trả hàng</span>
+                                <span class="footer-description__info">Trả hàng miễn phí trong 7 ngày</span>
+                            </div>
+                        </div>
+                        <div class="footer-promise-content">
+                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/511aca04cc3ba9234ab0e4fcf20768a2.png" alt="" class="footer-promise-content__img">
+                            <div class="footer-description">
+                                <span class="footer-description__heading">Hàng chính hãng 100%</span>
+                                <span class="footer-description__info">Đảm bảo hàng chính hãng hoặc hoàn tiền gấp đôi</span>
+                            </div>
+                        </div>
+                        <div class="footer-promise-content">
+                            <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/16ead7e0a68c3cff9f32910e4be08122.png" alt="" class="footer-promise-content__img">
+                            <div class="footer-description">
+                                <span class="footer-description__heading">Miễn phí vận chuyển</span>
+                                <span class="footer-description__info">Giao hàng miễn phí toàn quốc</span>
+                            </div>
+                        </div>
+                   </div> 
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="grid__row footer-content-margin">
+                    <div class="grid__column-2-10">
+                        <span class="footer__heading">Chăm sóc khách hàng</span>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="" class="footer-item__link">Trung tâm trợ giúp</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link">TickID Mail</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link">Hướng dẫn mua hàng</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-10">
+                        <span class="footer__heading">Về TickID</span>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="" class="footer-item__link">Giới thiệu về TickID Việt Nam</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link">Tuyển dụng</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link">Điều khoản TickID</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-10">
+                        
+                    </div>
+
+                    <div class="grid__column-2-10">
+                        <span class="footer__heading">Theo dõi chúng tôi trên</span>
+                        <ul class="footer-list">
+                            <li class="footer-item"><a href="" class="footer-item__link"><i class="footer-item-icon fab fa-facebook-square"></i>Facebook</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link"><i class="footer-item-icon fab fa-instagram-square"></i>Instagram</a></li>
+                            <li class="footer-item"><a href="" class="footer-item__link"><i class="footer-item-icon fab fa-linkedin"></i>Linkedln</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="grid__column-2-10">
+                        <span class="footer__heading">Tải ứng dụng về ngay thôi</span>
+                        <a class="footer__download__link" href="">
+                            <img src="./assets/img/scan/qr.png" alt="QR download" class="footer__download-qr">
+                            <div href="" class="footer__download-list">
+                                <img src="./assets/img/scan/ggp.png" alt="GooglePlay" class="footer__download-application">
+                                <img src="./assets/img/scan/appstore.png" alt="AppStore" class="footer__download-application">
+                                <img src="./assets/img/scan/appGallery.png" alt="appGallery" class="footer__download-application">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- MODAL RESISTER AND LOGIN -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+                     resister form  
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <form action="" class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" required placeholder="E-mail">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" required placeholder="Password">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" required placeholder="Re-password">
+                        </div>
+                    </form>
+
+                    <div class="auth-form__policy">
+                        <span>Bằng việc đăng kí, bạn đã đồng ý với Shopee về <a href="" class="auth-form__text-links">Điều khoản dịch vụ</a> & <a href="" class="auth-form__text-links">Chính sách bảo mật</a></span>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-btn-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--with-icon btn--with-icon-facebook">
+                        <i class="fab fa-facebook-square"></i>
+                        <span>Kết nối với Facebook</span>
+                    </a>
+
+                    <a href="" class="btn btn--with-icon btn--with-icon-google">
+                        <i class="fab fa-google"></i>
+                        <span>Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+
+                  login form  
+             <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <form action="" class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" required placeholder="E-mail">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" required placeholder="Password">
+                        </div>                       
+                    </form>
+
+                    <div class="auth-form__support">
+                        <a href="" class="auth-form__support-forgot-pwd">Quên mật khẩu</a>
+                        <div class="auth-form__support-bulkhead"></div>
+                        <a href="" class="auth-form__support-help">Cần trợ giúp?</a>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-btn-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon btn--with-icon--login btn--with-icon-sms">
+                            <i class="fas fa-comment-dots"></i>
+                            <span>SMS</span>
+                        </a>
+                        
+                        <a href="" class="btn btn--with-icon btn--with-icon--login btn--with-icon-facebook">
+                            <i class="fab fa-facebook-square"></i>
+                            <span>Facebook</span>
+                        </a>
+    
+                        <a href="" class="btn btn--with-icon btn--with-icon--login btn--with-icon-google">
+                            <i class="fab fa-google"></i>
+                            <span>Google</span>
+                        </a>
+                </div>
+            </div> 
+        </div>
+    </div>  -->
+</body>
+</html>
